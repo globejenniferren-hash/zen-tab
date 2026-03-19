@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zen Tab</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="zen-background" aria-hidden="true"></div>
+  <div class="zen-overlay" aria-hidden="true"></div>
+
+  <header class="zen-search">
+    <form
+      class="zen-search-form"
+      action="https://www.google.com/search"
+      method="GET"
+    >
+      <input
+        class="zen-search-input"
+        type="text"
+        name="q"
+        placeholder="Search Google…"
+        aria-label="Search Google"
+        autocomplete="off"
+      />
+      <button class="zen-search-button" type="submit">Google</button>
+    </form>
+  </header>
+
+  <main class="zen-container" id="zen-container">
+    <header class="entry-meta">
+      <span class="entry-category" id="entry-category"></span>
+      <span class="entry-source" id="entry-source"></span>
+    </header>
+
+    <div class="entry-content">
+      <div class="entry-original" id="entry-original"></div>
+      <div class="entry-translation" id="entry-translation"></div>
+
+      <div class="entry-divider">
+        <span></span>
+      </div>
+
+      <div class="entry-interpretation" id="entry-interpretation"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
