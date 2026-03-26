@@ -414,11 +414,311 @@ const entries = [
     category: "Buddhism",
     imageQuery: "garden flowers clouds passing peaceful",
   },
+
+  // —— 《論語》再擴充 —— //
+  {
+    original: "仁者不憂，知者不惑，勇者不懼。",
+    translation:
+      "有仁德的人不容易長久憂愁，有智慧的人不容易迷惑，有勇氣的人不容易恐懼。",
+    interpretation:
+      "這句話像是三種心靈肌肉：仁讓我們感覺自己是連結的，不那麼孤立；知讓我們在複雜中仍有判準；勇讓我們願意在害怕中仍然前進。人生某個階段可能特別需要其中一項，也可以練習慢慢補齊。",
+    source: "《論語·憲問》",
+    category: "Confucianism",
+    imageQuery: "three people brave calm wise",
+  },
+  {
+    original: "不患無位，患所以立；不患莫己知，求為可知也。",
+    translation:
+      "不要憂慮沒有地位，只要擔心自己有沒有與之相配的實力；不要憂慮沒有人了解自己，只要努力讓自己成為值得被了解的人。",
+    interpretation:
+      "與其焦慮「機會還沒來」「伯樂還沒看見」，不如把心力放回打磨自己的內在與能力。這樣做，一方面能減少無力感，另一方面也真正提高了遇見好機會時的把握度。",
+    source: "《論語·里仁》",
+    category: "Confucianism",
+    imageQuery: "person studying night desk lamp focus",
+  },
+  {
+    original: "君子和而不流，強立而不反。",
+    translation:
+      "君子能與人和諧相處，但不隨波逐流；能堅定立場，又不盲目對抗。",
+    interpretation:
+      "這是一種很細緻的界限感：既不把自己溶解在別人的期待裡，也不需要透過故意對立來證明自己。心理上，這來自穩定的自我價值與對他人差異的尊重。",
+    source: "《論語·子張》",
+    category: "Confucianism",
+    imageQuery: "crowd one calm person centered",
+  },
+
+  // —— 《孟子》再擴充 —— //
+  {
+    original: "夫仁者，己欲立而立人，己欲達而達人。",
+    translation:
+      "有仁心的人，自己想站穩腳跟時，也幫助別人站穩；自己想通達時，也幫助別人通達。",
+    interpretation:
+      "把自己的渴望拓展為對他人的祝福，是一種很高級的利他：不是犧牲自己去成全他人，而是在實現自我時順帶拉別人一把，讓整個系統一起變好。",
+    source: "《孟子·公孫丑上》",
+    category: "Confucianism",
+    imageQuery: "mentor helping colleague climb step",
+  },
+  {
+    original: "養心莫善於寡欲。",
+    translation:
+      "修養內心沒有什麼比減少無止境的欲望更好的了。",
+    interpretation:
+      "這裡的「寡欲」不是壓抑一切需求，而是分辨哪些真的是心底的需要，哪些只是被外界刺激出來的衝動。當願望變得少而精，心的力量會集中起來，而不是被無數想要撕裂開。",
+    source: "《孟子·盡心上》",
+    category: "Confucianism",
+    imageQuery: "simple room plant book calm",
+  },
+
+  // —— 《大學·中庸》補充 —— //
+  {
+    original: "所謂誠其意者，毋自欺也。",
+    translation:
+      "所謂讓心意真誠，就是不要自欺。",
+    interpretation:
+      "很多時候我們不是騙別人，而是先騙過自己，好讓自己暫時舒服一點。但真正的安穩來自於：願意面對內心真實的聲音，即便一開始有點刺痛，長遠看卻更輕鬆。",
+    source: "《大學》",
+    category: "Confucianism",
+    imageQuery: "person looking in mirror honest reflection",
+  },
+  {
+    original: "喜怒哀樂之未發，謂之中；發而皆中節，謂之和。",
+    translation:
+      "喜怒哀樂還沒有發出時，叫作「中」；發出來而都恰到好處，叫作「和」。",
+    interpretation:
+      "中庸並不是沒有情緒，而是在情緒發生前有覺察，發生時有節制。當你既不壓抑也不失控，情緒就成了與世界溝通的細膩語言，而不是一種災難。",
+    source: "《中庸》",
+    category: "Confucianism",
+    imageQuery: "yin yang balance water fire harmony",
+  },
+
+  // —— 《心經》再擴充 —— //
+  {
+    original: "無苦集滅道，無智亦無得，以無所得故。",
+    translation:
+      "沒有固定實體的苦集滅道，也沒有可執取的智慧與成就，正因為本無所得。",
+    interpretation:
+      "這提醒我們：連「修行的成果」也不要過分抓住。當你不再急於證明自己已經到哪個階段，而是單純地活在當下的練習裡，反而比較容易放鬆和穩定。",
+    source: "《般若波羅蜜多心經》",
+    category: "Buddhism",
+    imageQuery: "monk walking path simple stillness",
+  },
+
+  // —— 《道德經》再擴充 —— //
+  {
+    original: "知人者智，自知者明。",
+    translation:
+      "了解別人的人算是有智慧，真正了解自己的人才算明白。",
+    interpretation:
+      "觀察他人很容易，回頭看自己卻需要勇氣。當一個人願意把同樣犀利的眼光轉回自身，而不是只用來批評別人時，他的生命就開始朝著真正的成熟前進。",
+    source: "《道德經》第三十三章",
+    category: "Taoism",
+    imageQuery: "person journaling self awareness window",
+  },
+  {
+    original: "大直若屈，大巧若拙，大辯若訥。",
+    translation:
+      "最大的正直看起來好像彎曲，最巧妙的技藝看起來好像笨拙，最會辯說的人反而看起來木訥。",
+    interpretation:
+      "真正成熟的力量往往不張揚：不急於表現自己，甚至願意在外表上看起來「不那麼厲害」。這種收斂，來自對自己實力的信任，而非缺乏自信。",
+    source: "《道德經》第四十五章",
+    category: "Taoism",
+    imageQuery: "old craftsman working hands humble skill",
+  },
+
+  // —— 《莊子》再擴充 —— //
+  {
+    original: "知其不可奈何而安之若命。",
+    translation:
+      "知道有些事無力改變，卻仍能安然地接納，就像接受命運一樣。",
+    interpretation:
+      "這不是消極，而是對「可控」與「不可控」的清晰分界：在自己能行動的範圍內盡力，在超出能力的部分學會放手。這樣的心態，既不放棄責任，也不被無力感拖垮。",
+    source: "《莊子·人間世》",
+    category: "Taoism",
+    imageQuery: "person under vast sky acceptance calm",
+  },
+  {
+    original: "吾生也有涯，而知也無涯。",
+    translation:
+      "人的生命是有限的，而知識與學問是無窮無盡的。",
+    interpretation:
+      "知道時間與精力有限，就是在提醒自己不要什麼都想學一點，而是選擇真正重要的方向深耕。這樣的「有限感」，反而讓生活更聚焦，也更有味道。",
+    source: "《莊子·養生主》",
+    category: "Taoism",
+    imageQuery: "bookshelf one book chosen focus",
+  },
+
+  // —— 《菜根譚》再擴充 —— //
+  {
+    original: "能受苦中苦，方為人上人。",
+    translation:
+      "能夠承受常人難受之苦，方能成就超出常人的境界。",
+    interpretation:
+      "這句話提醒我們，許多外在的「高位」，背後其實是默默承受與鍛鍊。與其羨慕別人的成果，不如問自己：我願意在看不見的地方，為自己的心與能力多吃一點苦嗎？",
+    source: "《菜根譚》",
+    category: "Confucianism",
+    imageQuery: "athlete training alone determination",
+  },
+  {
+    original: "心地乾淨，方可讀書學道。",
+    translation:
+      "內心清淨坦蕩，才能真正讀懂書與大道。",
+    interpretation:
+      "當心裡充滿比較、算計與妒意時，再好的道理也只會被用來證明自己。先把心裡的雜質放下一些，再讀經典與知識，體會會完全不同。",
+    source: "《菜根譚》",
+    category: "Buddhism",
+    imageQuery: "clean desk sunlight open book calm",
+  },
+
+  // —— 《孫子兵法》 Art of War —— //
+  {
+    original: "知彼知己，百戰不殆。",
+    translation:
+      "了解對方也了解自己，即使歷經許多挑戰也不容易陷入真正的危局。",
+    interpretation:
+      "用在生活裡，就是同時看清「外在處境」與「自己的限度與資源」。只盯著別人會焦慮，只盯著自己會脫節；兩邊都照見，決策才穩，也比較不會被一時情緒牽著走。",
+    source: "《孫子兵法·謀攻篇》",
+    category: "Art of War",
+    imageQuery: "chess board strategy calm light reflection",
+  },
+  {
+    original: "兵者，詭道也。",
+    translation:
+      "用兵之道，在於變化與權謀，而不是一成不變的套路。",
+    interpretation:
+      "這句常被誤解成「耍心機」，其實更接近：情境變了，做法就要跟著調整。固執於單一腳本的人，最容易在現實碰壁；願意觀察、試錯、換策略的人，韌性會強很多。",
+    source: "《孫子兵法·始計篇》",
+    category: "Art of War",
+    imageQuery: "mist path fork decision calm landscape",
+  },
+  {
+    original: "不戰而屈人之兵，善之善者也。",
+    translation:
+      "不必正面衝突就能讓對方無法為害，才是最高明的勝法。",
+    interpretation:
+      "在人際與職場上，「贏」不一定是壓過對方，有時是化解張力、建立共識、讓局面自然往好的方向走。省下對抗的力氣，把資源用在建設上，長期往往更划算。",
+    source: "《孫子兵法·謀攻篇》",
+    category: "Art of War",
+    imageQuery: "handshake peace negotiation window light",
+  },
+  {
+    original: "上兵伐謀，其次伐交，其次伐兵，其下攻城。",
+    translation:
+      "最高明的是破壞對方的計謀，其次是瓦解其聯盟，再來才是動武，最下策是硬攻城池。",
+    interpretation:
+      "對應到日常，就是先調整認知與佈局（為何會卡住），再處理關係與溝通，最後才動用硬碰硬的手段。一上來就撕破臉，常常是力氣花最多、修復成本也最大的一條路。",
+    source: "《孫子兵法·謀攻篇》",
+    category: "Art of War",
+    imageQuery: "planning whiteboard strategy meeting calm",
+  },
+  {
+    original: "勝兵先勝而後求戰，敗兵先戰而後求勝。",
+    translation:
+      "常勝的一方是先確立可勝之勢，再投入戰鬥；常敗的一方是莽撞開打，才指望僥倖取勝。",
+    interpretation:
+      "呼應現代所說的「準備度」。心裡若還沒想清楚資源、底線與退路，就急著攤牌或承諾，壓力會很大。先把自己能站穩的那一步做好，再出手，焦慮會少很多。",
+    source: "《孫子兵法·形篇》",
+    category: "Art of War",
+    imageQuery: "athlete preparation stretching focus morning",
+  },
+  {
+    original: "昔之善戰者，先為不可勝，以待敵之可勝。",
+    translation:
+      "古代善戰的人，先讓自己立於不敗之地，再等待對方露出可乘之機。",
+    interpretation:
+      "這是一種很務實的耐心：先照顧好睡眠、健康、界線與基本功，讓自己不要輕易崩盤；當機會來了，才有餘力抓住。急著「逆轉」之前，先問自己：我的底盤穩了嗎？",
+    source: "《孫子兵法·形篇》",
+    category: "Art of War",
+    imageQuery: "solid foundation building blocks calm",
+  },
+  {
+    original: "善戰者，求之於勢，不責於人。",
+    translation:
+      "善於作戰的人，懂得順勢而為，而不是一味苛責部屬。",
+    interpretation:
+      "若把失敗全怪在某個人身上，容易錯過結構性的問題。調整環境、流程與時機（勢），往往比反覆指責性格更有效。對自己亦然：與其咒罵意志力，不如設計更容易做好的情境。",
+    source: "《孫子兵法·勢篇》",
+    category: "Art of War",
+    imageQuery: "river flow direction natural current",
+  },
+  {
+    original: "其疾如風，其徐如林，侵掠如火，不動如山，難知如陰，動如雷震。",
+    translation:
+      "行動時迅疾如風，整肅時沉穩如林，進取時猛烈如火，守備時穩固如山，隱藏時深不可測如陰影，出擊時如雷鳴般果斷。",
+    interpretation:
+      "這組意象提醒我們：不同階段需要不同節奏。該快時不拖泥帶水，該慢時能沉住氣；該堅守時不輕易動搖，該出手時不猶豫。心理上也一樣——覺察當下需要的是衝刺還是休整。",
+    source: "《孫子兵法·軍爭篇》",
+    category: "Art of War",
+    imageQuery: "mountain forest wind fire storm calm contrast",
+  },
+  {
+    original: "兵聞拙速，未睹巧之久也。",
+    translation:
+      "用兵寧可顯得笨拙也要爭取速決，沒聽說過為了精巧而久拖不決能有好結果的。",
+    interpretation:
+      "完美主義與過度打磨，有時只是拖延的藉口。在許多事情上，先做出可用的版本、盡快進入回饋循環，比空想一個「終極方案」更能降低焦慮。巧要巧在關鍵處，而不是無止境的雕琢。",
+    source: "《孫子兵法·作戰篇》",
+    category: "Art of War",
+    imageQuery: "stopwatch simple action minimal desk",
+  },
+  {
+    original: "投之亡地然後存，陷之死地然後生。",
+    translation:
+      "把人置於看似無路可退之地，反而能激發出生路；陷入絕境般的處境，反而可能轉出生機。",
+    interpretation:
+      "這不是鼓吹自找麻煩，而是描述人在壓力下的潛能：當退路被心智封死時，有時會爆發出意想不到的專注與創意。日常裡，適度限縮選項（例如設定截止日、公開承諾），反而能終結拖延。",
+    source: "《孫子兵法·九地篇》",
+    category: "Art of War",
+    imageQuery: "narrow path cliff dawn hope light",
+  },
+  {
+    original: "將在外，君命有所不受。",
+    translation:
+      "大將身在遠方戰場，若事事等候君命，可能貽誤戰機，因此在特定情境下可以不接受遙控指揮。",
+    interpretation:
+      "在高度不確定的現場，過度中央集權會害死人。授權與信任，讓第一線的人依實況做判斷，往往比層層請示更有效。用在個人生活上，也是：別人的期待很重要，但你最清楚當下該不該轉彎。",
+    source: "《孫子兵法·九變篇》",
+    category: "Art of War",
+    imageQuery: "lone figure horizon responsibility calm",
+  },
+  {
+    original: "主不可以怒而興師，將不可以慍而致戰。",
+    translation:
+      "君主不可因一時憤怒而發動戰爭，將帥不可因一時怨懟而貿然開戰。",
+    interpretation:
+      "情緒高點做的重大決定，事後往往最難收拾。孫子提醒我們在觸發「戰」之前先降溫——無論是爭執、離職、斷聯或重大承諾。等怒氣與委屈略為沉降，再問：這一步符合長期利益嗎？",
+    source: "《孫子兵法·火攻篇》",
+    category: "Art of War",
+    imageQuery: "calm water after storm evening peace",
+  },
 ];
+
+// 最近已展示過的經文索引，用來避免短期內重複
+const RECENT_ENTRY_LIMIT = 5;
+const recentEntryIndices = [];
 
 function pickRandomEntry(list) {
   if (!Array.isArray(list) || list.length === 0) return null;
-  const index = Math.floor(Math.random() * list.length);
+
+  // 經文總數較少時，直接隨機即可
+  if (list.length <= RECENT_ENTRY_LIMIT) {
+    const index = Math.floor(Math.random() * list.length);
+    return list[index];
+  }
+
+  let index;
+  let attempts = 0;
+
+  // 儘量避免抽到最近展示過的幾條
+  do {
+    index = Math.floor(Math.random() * list.length);
+    attempts += 1;
+  } while (recentEntryIndices.includes(index) && attempts < 20);
+
+  recentEntryIndices.push(index);
+  if (recentEntryIndices.length > RECENT_ENTRY_LIMIT) {
+    recentEntryIndices.shift();
+  }
+
   return list[index];
 }
 
