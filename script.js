@@ -569,6 +569,939 @@ const entries = [
     imageQuery: "clean desk sunlight open book calm",
   },
 
+  // —— 《論語》擴充（二） —— //
+  {
+    original: "溫故而知新，可以為師矣。",
+    translation:
+      "能在溫習舊學時領會出新的體會，就有資格做別人的老師了。",
+    interpretation:
+      "成長不一定來自「全新輸入」，常常來自對同一經驗的再咀嚼。重讀一段關係、一份工作、一個決定時，若願意帶著現在的自己去看，往往會長出過去沒看見的層次。",
+    source: "《論語·為政》",
+    category: "Confucianism",
+    imageQuery: "old book new light reading revisit calm",
+  },
+  {
+    original: "君子不器。",
+    translation:
+      "君子不把自己窄化成單一功能的器具。",
+    interpretation:
+      "這不是反對專業，而是提醒：人若只剩一種角色腳本，遇到變局就容易僵住。保留學習、同理與跨界的能力，心會比較有彈性，也比較不會被標籤綁死。",
+    source: "《論語·為政》",
+    category: "Confucianism",
+    imageQuery: "many tools workshop versatile hands craft",
+  },
+  {
+    original: "君子周而不比，小人比而不周。",
+    translation:
+      "君子普遍厚待他人而不結黨營私；小人結黨拉攏卻不能公正周遍。",
+    interpretation:
+      "健康的連結是「原則一致、對事也對人」；不健康的派系是「只問立場、不問是非」。當你察覺自己在小圈子裡越來越難聽見不同聲音，值得停下來問：我是在追求歸屬，還是在逃避思考？",
+    source: "《論語·為政》",
+    category: "Confucianism",
+    imageQuery: "circle of people open inclusive light",
+  },
+  {
+    original: "君子食無求飽，居無求安。",
+    translation:
+      "君子吃飯不執著於奢飽，居住也不執著於安逸。",
+    interpretation:
+      "適度的舒適是滋養，過度的安逸常讓人麻痺。把一點點「不那麼舒服」留在生活裡——例如保持學習、運動或創作的節奏——反而能讓心保持清醒與朝氣。",
+    source: "《論語·學而》",
+    category: "Confucianism",
+    imageQuery: "simple meal tea humble table morning",
+  },
+  {
+    original: "過則勿憚改。",
+    translation:
+      "有了過錯，不要怕改正。",
+    interpretation:
+      "許多人不是不知道錯，而是怕丟臉、怕推翻先前的自己。願意改，本質上是對未來的自己溫柔：承認過去有限，不等於否定整個人。小步修正，往往比硬扛更能重建信任。",
+    source: "《論語·學而》",
+    category: "Confucianism",
+    imageQuery: "eraser pencil rewrite notebook fresh start",
+  },
+  {
+    original: "君子喻於義，小人喻於利。",
+    translation:
+      "君子用義理來判斷取捨，小人則只看眼前利害。",
+    interpretation:
+      "這裡的「義」不必說得很宏大，可以是很日常的：這樣做對關係公平嗎？對長期健康嗎？若凡事只算短期得失，人會變得精算而空虛；若多問一句「這樣對嗎」，選擇往往更踏實。",
+    source: "《論語·里仁》",
+    category: "Confucianism",
+    imageQuery: "scales justice balance soft light ethical",
+  },
+  {
+    original: "朝聞道，夕死可矣。",
+    translation:
+      "早晨真正領悟了大道，即便傍晚離世也可以無憾。",
+    interpretation:
+      "這句話的力度在於：有些體悟比壽命長短更重要。當你終於想通一件糾纏多年的心結，或看清自己真正在乎的是什麼，那種內在的清明本身，就是一種圓滿。",
+    source: "《論語·里仁》",
+    category: "Confucianism",
+    imageQuery: "sunrise clarity breakthrough quiet moment",
+  },
+  {
+    original: "德不孤，必有鄰。",
+    translation:
+      "有德行的人不會孤立，必定會有志同道合者相近。",
+    interpretation:
+      "當你長期選擇誠實、善意與可靠，短期可能吃虧，長期卻會在關係場裡累積信任與連結。孤獨有時是過渡，不是終點；把心修穩了，同頻的人會慢慢出現。",
+    source: "《論語·里仁》",
+    category: "Confucianism",
+    imageQuery: "two paths meet friends walking together",
+  },
+  {
+    original: "質勝文則野，文勝質則史。文質彬彬，然後君子。",
+    translation:
+      "質樸勝過文采就顯粗野，文采勝過質樸就顯虛浮。文與質調和得宜，才是君子之風。",
+    interpretation:
+      "做人也是一樣：只有真誠而完全沒有表達，容易被誤解；只有表面漂亮而內在空洞，難以長久。讓「真實」與「修養」並行，關係會既踏實又舒服。",
+    source: "《論語·雍也》",
+    category: "Confucianism",
+    imageQuery: "balance wood paper texture harmony design",
+  },
+  {
+    original: "知者樂水，仁者樂山。",
+    translation:
+      "有智慧的人欣賞水的流動，有仁德的人欣賞山的穩重。",
+    interpretation:
+      "兩種氣質都美：一種靈活應變，一種沉穩可靠。認識自己偏向哪一種，並欣賞與自己不同的人，團隊與關係才會互補，而不是互踩。",
+    source: "《論語·雍也》",
+    category: "Confucianism",
+    imageQuery: "mountain lake water rock landscape calm",
+  },
+  {
+    original: "逝者如斯夫，不舍晝夜。",
+    translation:
+      "時光就像這河水一樣流去，日夜不停。",
+    interpretation:
+      "孔子面對流水時的感嘆，是一種溫柔的提醒：沒有什麼狀態會永遠停住。悲歡、得失、身份都在變化中。接納這點，比較不會用「永遠」來折磨自己或別人。",
+    source: "《論語·子罕》",
+    category: "Confucianism",
+    imageQuery: "river flowing time long exposure peaceful",
+  },
+  {
+    original: "毋意，毋必，毋固，毋我。",
+    translation:
+      "不憑空臆測，不武斷強求，不固執成見，不唯我獨尊。",
+    interpretation:
+      "這四個「毋」是很好的情緒與溝通檢查表：生氣前先問，我是不是在腦補劇情？有沒有把「希望」當成「一定」？還聽得進別人的版本嗎？放下小我中心，衝突常會降溫一半。",
+    source: "《論語·子罕》",
+    category: "Confucianism",
+    imageQuery: "open hands letting go ego soft light",
+  },
+  {
+    original: "君子求諸己，小人求諸人。",
+    translation:
+      "君子反求諸己，小人則一味要求別人。",
+    interpretation:
+      "把力氣先放在「我能調整什麼」，不是因為要扛下所有責任，而是因為那是唯一真正可控的變數。抱怨環境與他人很省力，但改變通常從自己開始才會發生。",
+    source: "《論語·衛靈公》",
+    category: "Confucianism",
+    imageQuery: "mirror reflection self responsibility calm",
+  },
+  {
+    original: "工欲善其事，必先利其器。",
+    translation:
+      "工匠想把事情做好，一定要先磨利工具。",
+    interpretation:
+      "心理上也一樣：睡眠、身體、工具與環境，都是「器」。想提升輸出品質卻不願意投資基礎，往往事倍功半。先照顧好能支撐你的條件，再談表現，比較實際。",
+    source: "《論語·衛靈公》",
+    category: "Confucianism",
+    imageQuery: "tools sharpen workshop craft preparation",
+  },
+  {
+    original: "君子泰而不驕，小人驕而不泰。",
+    translation:
+      "君子安詳從容卻不傲慢，小人傲慢卻內心不安。",
+    interpretation:
+      "真正的自信往往安靜，因為不需要用姿態壓人；虛張聲勢的人，內在常常是緊繃與匱乏。若你察覺自己「越說越大聲」，不妨問：我是在表達事實，還是在安撫恐懼？",
+    source: "《論語·子路》",
+    category: "Confucianism",
+    imageQuery: "calm leader confident quiet room",
+  },
+  {
+    original: "君子和而不同，小人同而不和。",
+    translation:
+      "君子能與人和諧相處卻不盲目附和；小人表面一致，內心卻不和睦。",
+    interpretation:
+      "真實的尊重包含差異：可以不同意，仍願意聽完、仍維持基本善意。假團結則是壓抑真話，檯面笑臉、檯下怨氣。健康關係需要一點「和而不同」的空間。",
+    source: "《論語·子路》",
+    category: "Confucianism",
+    imageQuery: "diverse people dialogue circle respectful",
+  },
+  {
+    original: "古之學者為己，今之學者為人。",
+    translation:
+      "古代求學的人為了充實自己，現在求學的人往往為了做給別人看。",
+    interpretation:
+      "若學習只為了面子、職稱或按讚，心會很累，也容易投機。把「成為更清醒、更善良的人」當成核心動機，外在成果反而更可能跟著來，而且比較不會患得患失。",
+    source: "《論語·憲問》",
+    category: "Confucianism",
+    imageQuery: "student alone library intrinsic motivation",
+  },
+  {
+    original: "不怨天，不尤人。",
+    translation:
+      "不埋怨上天，也不責怪他人。",
+    interpretation:
+      "這不是禁止情緒，而是不把全部因果都推出去。適度承認自己的選擇與局限，會帶來力量感：我仍能在這個框架裡做一點什麼。怨天尤人短期舒暢，長期削弱行動力。",
+    source: "《論語·憲問》",
+    category: "Confucianism",
+    imageQuery: "cloud sky acceptance person standing",
+  },
+  {
+    original: "歲寒，然後知松柏之後彫也。",
+    translation:
+      "到了嚴寒季節，才知道松柏是最後才凋零的。",
+    interpretation:
+      "順境時誰都顯得堅強，逆境才看得出誰的價值觀經得起考驗。對自己來說，也是在問：當資源變少、壓力變大時，我還願意守住的底線與溫柔是什麼？",
+    source: "《論語·子罕》",
+    category: "Confucianism",
+    imageQuery: "pine tree winter snow resilient calm",
+  },
+  {
+    original: "吾日三省吾身：為人謀而不忠乎？與朋友交而不信乎？傳不習乎？",
+    translation:
+      "我每天多次反省：替人辦事是否盡心？與朋友交往是否誠信？老師所教是否實踐溫習？",
+    interpretation:
+      "反省不必變成自我攻擊，可以像儀表板檢查：今天我的「可靠度」「誠實度」「落實度」如何？小小自問，能讓人在忙碌中仍對自己的品格負責，而不是只靠外在評價定義自己。",
+    source: "《論語·學而》",
+    category: "Confucianism",
+    imageQuery: "evening journal reflection candle quiet",
+  },
+
+  // —— 《道德經》擴充（二） —— //
+  {
+    original: "道可道，非常道；名可名，非常名。",
+    translation:
+      "能用語言說清楚的道，就不是那恆常之道；能用名稱固定的名，也不是那恆常之名。",
+    interpretation:
+      "終極真理與生命體驗，很難被語言完全框死。這帶來一種謙卑：對自己與他人的經驗保留一點開放，不急著用標籤蓋棺論定。語言是工具，不是牢籠。",
+    source: "《道德經》第一章",
+    category: "Taoism",
+    imageQuery: "fog path mystery dawn soft minimal",
+  },
+  {
+    original: "有無相生，難易相成，長短相形，高下相盈，音聲相和，前後相隨。",
+    translation:
+      "有與無互相生成，難與易互相成立，長短、高下、音聲、前後，都在相對中顯現。",
+    interpretation:
+      "許多我們厭惡的狀態，其實在定義另一種狀態：沒有低谷就沒有高峰的感覺。不是要美化痛苦，而是當我們理解「成對出現」，比較不會把一時逆境當成永恆判決，心會鬆一點。",
+    source: "《道德經》第二章",
+    category: "Taoism",
+    imageQuery: "yin yang balance complementary waves",
+  },
+  {
+    original: "天下皆知美之為美，斯惡已；皆知善之為善，斯不善已。",
+    translation:
+      "天下人都知道什麼是美，醜的概念就出現了；都知道什麼是善，不善的概念也跟著出現。",
+    interpretation:
+      "比較與標準一旦建立，焦慮往往就跟著來。覺察「美醜、成敗」很多是相對的，可以減少一點對單一標準的執著，讓自己不必永遠活在別人的尺規底下。",
+    source: "《道德經》第二章",
+    category: "Taoism",
+    imageQuery: "shadow light contrast minimal abstract",
+  },
+  {
+    original: "禍兮福之所倚，福兮禍之所伏。",
+    translation:
+      "災禍裡倚藏著福分，福分裡也潛伏著災禍。",
+    interpretation:
+      "事情很少是單一標籤走到黑。失意時留一點希望，得意時留一點清醒，都是為了心理上的彈性。不是宿命論，而是對變化保持心理預留空間。",
+    source: "《道德經》第五十八章",
+    category: "Taoism",
+    imageQuery: "path turn hill unexpected journey",
+  },
+  {
+    original: "治大國若烹小鮮。",
+    translation:
+      "治理大國要像煎小魚一樣，翻動過多反而碎爛。",
+    interpretation:
+      "用在個人生活：過度干預、反覆改變計畫、對關係不停「微調」，有時會把原本能自然熟成的東西弄壞。適度放手、信任節奏，反而需要更大的智慧與耐心。",
+    source: "《道德經》第六十章",
+    category: "Taoism",
+    imageQuery: "cooking gentle flame simple kitchen calm",
+  },
+  {
+    original: "天網恢恢，疏而不失。",
+    translation:
+      "天道如廣大的網，網眼雖疏，卻不會漏失。",
+    interpretation:
+      "這句話常被理解為因果與長期正義：短期不公可能讓人憤怒，但許多模式拉長看會浮現後果。對自己而言，也是提醒：選擇誠實與善意，常常是最穩健的長期策略。",
+    source: "《道德經》第七十三章",
+    category: "Taoism",
+    imageQuery: "wide sky net stars vast night calm",
+  },
+  {
+    original: "信言不美，美言不信；善者不辯，辯者不善。",
+    translation:
+      "真實的話不一定好聽，好聽的話未必可信；真正善良的人不愛爭辯，愛爭辯的人未必善良。",
+    interpretation:
+      "資訊爆炸時代，話術與包裝越來越精緻。願意聽刺耳的真話、對甜言保持一點警覺，是保護自己的方式。內在穩定的人，也比較不需要靠辯贏來證明價值。",
+    source: "《道德經》第八十一章",
+    category: "Taoism",
+    imageQuery: "plain speech honest conversation quiet room",
+  },
+  {
+    original: "天下大事必作於細。",
+    translation:
+      "天下的大事，必定從細微之處做起。",
+    interpretation:
+      "與「千里之行始於足下」呼應。當目標巨大到癱瘓行動時，把注意力縮到下一個微小動作：一封訊息、十分鐘、一個小習慣。細節累積，才是多數成就的真相。",
+    source: "《道德經》第六十三章",
+    category: "Taoism",
+    imageQuery: "small seed sprout detail macro growth",
+  },
+  {
+    original: "柔弱勝剛強。",
+    translation:
+      "柔軟克制剛硬，弱勢勝過強橫。",
+    interpretation:
+      "硬碰硬往往兩敗俱傷；柔韌、迂迴、等待時機，反而能長期站得住。情緒上也是：愈用力控制，愈反彈；適度柔軟與接納，關係與身心都更有空間。",
+    source: "《道德經》第三十六章",
+    category: "Taoism",
+    imageQuery: "water stone river soft overcomes hard",
+  },
+  {
+    original: "致虛極，守靜篤。",
+    translation:
+      "心達到極度的虛明，守住深厚的寧靜。",
+    interpretation:
+      "在刺激過載的日子裡，刻意留一點「什麼都不為了」的空檔，讓神經系統降溫。虛不是空洞，是讓雜念沉澱後，直覺與判斷力重新浮現的空間。",
+    source: "《道德經》第十六章",
+    category: "Taoism",
+    imageQuery: "empty room meditation stillness morning",
+  },
+  {
+    original: "道常無為而無不為。",
+    translation:
+      "道常常看似無所作為，卻沒有什麼不是它所成就。",
+    interpretation:
+      "「無為」不是躺平，而是不強行扭曲節律：該休息時不硬撐，該放手時不執著。很多創造與修復，是在鬆開之後自然發生的，而不是愈用力愈有效。",
+    source: "《道德經》第三十七章",
+    category: "Taoism",
+    imageQuery: "river flowing effortless nature path",
+  },
+  {
+    original: "夫唯不爭，故天下莫能與之爭。",
+    translation:
+      "正因為不與人爭，所以天下沒有人能與他相爭。",
+    interpretation:
+      "當你不再把每件事都當成零和遊戲，能量會從「防衛與比較」轉向「建設與深耕」。很多時候，退出無謂的爭端，不是認輸，而是把生命投資在更值得的地方。",
+    source: "《道德經》第二十二章",
+    category: "Taoism",
+    imageQuery: "person walking away conflict peaceful path",
+  },
+  {
+    original: "勝人者有力，自勝者強。",
+    translation:
+      "能勝過別人，算是有力量；能勝過自己的弱點與欲望，才是真正的強者。",
+    interpretation:
+      "外在勝負帶來的快感很短；能管理衝動、拖延、嫉妒與恐懼，才是每天實際要面對的戰場。自勝不是壓抑，而是帶著覺察做選擇。",
+    source: "《道德經》第三十三章",
+    category: "Taoism",
+    imageQuery: "inner strength discipline morning run willpower",
+  },
+  {
+    original: "慈故能勇，儉故能廣。",
+    translation:
+      "因為慈愛，所以能勇敢；因為節儉，所以能豐足。",
+    interpretation:
+      "真正的勇氣常來自在乎——為所愛的人與價值站出來。節儉則讓資源不被虛耗，心與物都有餘裕。兩者加起來，是溫柔而有力量的生活態度。",
+    source: "《道德經》第六十七章",
+    category: "Taoism",
+    imageQuery: "parent child protect warm light courage",
+  },
+  {
+    original: "生而不有，為而不恃，長而不宰。",
+    translation:
+      "生養萬物而不據為己有，有所作為而不自恃功高，引導成長而不任意主宰。",
+    interpretation:
+      "在關係與工作中，真正的成熟是：我盡力付出，但不把對方當作品或附屬。愛與領導都一樣，放手讓對方成為他自己，比緊抓控制更能長久。",
+    source: "《道德經》第五十一章",
+    category: "Taoism",
+    imageQuery: "plant growing hands open letting go garden",
+  },
+  {
+    original: "孰能濁以靜之徐清？孰能安以動之徐生？",
+    translation:
+      "誰能在混濁中安靜下來，讓它慢慢澄清？誰能在安定中帶動生機，讓它慢慢長出來？",
+    interpretation:
+      "心亂的時候，先求「徐」——不急著立刻變好。給自己一點靜止與睡眠，濁水會漸清；長期停滯時，則需要小幅行動帶動活力。一快一慢之間，是對自己節奏的尊重。",
+    source: "《道德經》第十五章",
+    category: "Taoism",
+    imageQuery: "muddy water settling clear stream patience",
+  },
+
+  // —— 《莊子》擴充（二） —— //
+  {
+    original: "鷦鷯巢於深林，不過一枝；偃鼠飲河，不過滿腹。",
+    translation:
+      "小鳥在森林裡築巢，所需不過一根樹枝；鼴鼠到河邊喝水，所需不過滿一肚子。",
+    interpretation:
+      "欲望常常超過真正需要。當你感到「永遠不夠」，不妨問：我追求的是生存品質，還是無止境的比較？很多焦慮在「夠用就好」的認知下會鬆動。",
+    source: "《莊子·逍遙遊》",
+    category: "Taoism",
+    imageQuery: "bird nest single branch forest minimal",
+  },
+  {
+    original: "子非魚，安知魚之樂？",
+    translation:
+      "你不是魚，怎麼知道魚的快樂？",
+    interpretation:
+      "這句話提醒我們謙卑地對待他人的主觀經驗：我們很容易用自己的劇本去猜對方。真正的理解，往往來自好奇的提問與耐心的傾聽，而不是武斷的結論。",
+    source: "《莊子·秋水》",
+    category: "Taoism",
+    imageQuery: "fish pond ripple observer bridge calm",
+  },
+  {
+    original: "君子之交淡若水，小人之交甘若醴。",
+    translation:
+      "君子之間的交情清淡如水，小人之間的交情甜膩如酒醴。",
+    interpretation:
+      "清淡不是冷漠，而是不靠黏膩與利益捆綁來維繫。長期穩定的關係，多半耐得住平淡與距離；過度甜膩的依附，常常伴隨控制與反噬。",
+    source: "《莊子·山木》",
+    category: "Taoism",
+    imageQuery: "clear water glass friendship simple table",
+  },
+  {
+    original: "井蛙不可以語於海者，拘於虛也。",
+    translation:
+      "井底之蛙無法與牠談大海，因為牠被所居的空間局限。",
+    interpretation:
+      "每個人都有自己的「井」：成長環境、同溫層、專業領域。意識到局限，才會保持學習與旅行（實體或心靈上的）的開放。批判別人無知之前，先問自己：我的井口有多大？",
+    source: "《莊子·秋水》",
+    category: "Taoism",
+    imageQuery: "well sky circle limited view perspective",
+  },
+  {
+    original: "夏蟲不可以語於冰者，篤於時也。",
+    translation:
+      "夏天的蟲無法與牠談冰雪，因為牠被所活的季節限制。",
+    interpretation:
+      "有些爭論沒有交集，是因為生命經驗與時機完全不同。與其硬要說服，不如承認「此刻我們不在同一個季節」。把力氣留給真正願意對話的人。",
+    source: "《莊子·秋水》",
+    category: "Taoism",
+    imageQuery: "summer winter seasons change abstract",
+  },
+  {
+    original: "大知閑閑，小知閒閒。",
+    translation:
+      "大智慧寬闊從容，小聰明計較忙碌。",
+    interpretation:
+      "若你整天被細枝末節的勝負佔滿，很難看見更大的格局。偶爾後退一步問：這件事五年後還重要嗎？把心力留給真正影響長期幸福的選擇。",
+    source: "《莊子·齊物論》",
+    category: "Taoism",
+    imageQuery: "wide horizon person small vast sky",
+  },
+  {
+    original: "今者吾喪我，汝知之乎？",
+    translation:
+      "此刻我已經放下了那個固執的「我」，你知道嗎？",
+    interpretation:
+      "「吾喪我」不是自我消失，而是鬆開對小我標籤的緊抓：名聲、面子、一定要怎樣才算成功。當那層硬殼鬆動，心會變得輕盈，比較能聽見真實的需要。",
+    source: "《莊子·齊物論》",
+    category: "Taoism",
+    imageQuery: "mask fallen ground authentic self soft light",
+  },
+  {
+    original: "至樂無樂，至譽無譽。",
+    translation:
+      "最高的快樂不在於追逐快感本身，最高的名譽也不執著於被讚美。",
+    interpretation:
+      "若快樂完全繫在刺激與掌聲上，心會像上癮一樣需要越來越強的輸入。更深層的滿足，往往來自內在的安穩與意義感，而不是外在的排行榜。",
+    source: "《莊子·至樂》",
+    category: "Taoism",
+    imageQuery: "quiet joy simple life sunset content",
+  },
+  {
+    original: "得魚忘筌；蹄者所以在兔，得兔而忘蹄。",
+    translation:
+      "捕到魚就可以忘記捕具；捕兔的網腳用意在兔，捉到兔就不必惦記工具。",
+    interpretation:
+      "方法與頭銜是過河的船，到岸後不必背著船走。若你執著於手段本身，反而忘記最初想追求的是什麼。定期問自己：我現在堅持的，是目的，還是習慣？",
+    source: "《莊子·外物》",
+    category: "Taoism",
+    imageQuery: "fishing net boat shore leave behind minimal",
+  },
+  {
+    original: "人生天地之間，若白駒之過郤，忽然而已。",
+    translation:
+      "人在天地之間，就像白色駿馬掠過縫隙，一瞬而過。",
+    interpretation:
+      "時間感能帶來兩種力量：一是放下執著——沒有什麼丟臉會永遠被記住；二是珍惜當下——想做的事、想說的感謝，別永遠等「以後」。",
+    source: "《莊子·知北遊》",
+    category: "Taoism",
+    imageQuery: "white horse field motion blur time fleeting",
+  },
+  {
+    original: "山木自寇也，膏火自煎也。",
+    translation:
+      "山裡的好木材因為可貴而招來砍伐；油脂可以照明，卻因此被燃燒殆盡。",
+    interpretation:
+      "才華與資源若不懂得保護與節制，反而容易引來過度索取與耗損。學會說不、設定界線，不是小氣，而是讓自己長期仍能發光。",
+    source: "《莊子·人間世》",
+    category: "Taoism",
+    imageQuery: "tree forest timber boundary protect",
+  },
+  {
+    original: "墮肢體，黜聰明，離形去知，同於大通，此謂坐忘。",
+    translation:
+      "放鬆形體的緊繃，放下聰明的算計，離開形骸與成見的束縛，與大道相通，這叫作坐忘。",
+    interpretation:
+      "現代人可以把它理解成一種深度休息與放下控制：暫時不評判、不優化、不解題，只是存在。當大腦從「一直要表現」的模式切換出來，創傷與疲勞才有空間被身體消化。",
+    source: "《莊子·大宗師》",
+    category: "Taoism",
+    imageQuery: "sitting meditation forget self spacious dark room",
+  },
+
+  // —— 《論語》《道德經》《莊子》等擴充（三） —— //
+  {
+    original: "有朋自遠方來，不亦樂乎？",
+    translation:
+      "有志同道合的朋友從遠方來相聚，不也是一件很喜悅的事嗎？",
+    interpretation:
+      "孤獨久了，心會萎縮；被理解與被看見，能滋養人。這句話也在提醒我們主動經營連結——不一定是熱鬧，而是有幾個能談心、能互相打氣的關係。",
+    source: "《論語·學而》",
+    category: "Confucianism",
+    imageQuery: "friends gathering tea home warm evening",
+  },
+  {
+    original: "父母之年，不可不知也。一則以喜，一則以懼。",
+    translation:
+      "父母的年歲不可以不知道：一方面為他們長壽而喜，一方面也為時光有限而有所警覺。",
+    interpretation:
+      "這份「懼」不是焦慮，而是珍惜的動力。能相處的具體日子其實不多，問候與陪伴若一直等「有空」，往往就來不及。把感謝說在還能聽見的時候。",
+    source: "《論語·里仁》",
+    category: "Confucianism",
+    imageQuery: "elderly parents family window light gentle",
+  },
+  {
+    original: "父母在，不遠遊，遊必有方。",
+    translation:
+      "父母在世時不輕易遠行；若必須遠行，也要讓父母知道自己的去向與安排。",
+    interpretation:
+      "現代人遠行常是工作與理想所需，重點在「有方」：讓在乎你的人安心，不是被控制，而是彼此尊重的責任感。一通電話、一句交代，能減少很多牽掛。",
+    source: "《論語·里仁》",
+    category: "Confucianism",
+    imageQuery: "phone call home distance bridge connection",
+  },
+  {
+    original: "巧言令色，鮮矣仁。",
+    translation:
+      "花言巧語、裝出和顏悅色，這種人很少是真正有仁德的。",
+    interpretation:
+      "提醒我們分辨討好與善意：過度包裝的話語往往伴隨目的。誠實的溝通可能不那麼悅耳，長期卻比較能建立信任。",
+    source: "《論語·學而》",
+    category: "Confucianism",
+    imageQuery: "authentic speech honest eyes conversation",
+  },
+  {
+    original: "見利思義，見危授命。",
+    translation:
+      "看見利益時先想到是否合義；國家危難時能付出性命。",
+    interpretation:
+      "日常版可以是：這筆錢、這個捷徑、這次推卸，長期會把我變成什麼樣的人？「見利思義」是對未來自己的投票，也是對信任的累積。",
+    source: "《論語·憲問》",
+    category: "Confucianism",
+    imageQuery: "crossroads honest path sunrise",
+  },
+  {
+    original: "道不同，不相為謀。",
+    translation:
+      "所走的人生道路不同，就不必強求在同一計畫上共事。",
+    interpretation:
+      "這不是傲慢，而是界線：價值觀與目標差太遠時，硬合作只會內耗。體面地分開或保持距離，有時比勉強維持表面和諧更尊重彼此。",
+    source: "《論語·衛靈公》",
+    category: "Confucianism",
+    imageQuery: "two roads diverge forest peaceful",
+  },
+  {
+    original: "小不忍，則亂大謀。",
+    translation:
+      "小事不能忍耐，就會壞了大事的佈局。",
+    interpretation:
+      "情緒一上來就回嘴、封鎖、辭職、拉黑，常常付出超過預期的代價。先降溫十分鐘，問自己：十年後我還會為此刻這樣反應而感謝自己嗎？",
+    source: "《論語·衛靈公》",
+    category: "Confucianism",
+    imageQuery: "pause breath moment calm before action",
+  },
+  {
+    original: "不在其位，不謀其政。",
+    translation:
+      "不在那個職位上，就不要越權去主導那裡的政務。",
+    interpretation:
+      "延伸為生活智慧：尊重別人的課題與界線，也保護自己的精力。關心可以，但不要強行替他人的人生負全責；同樣，不必被不相干的人任意評判你的選擇。",
+    source: "《論語·泰伯》",
+    category: "Confucianism",
+    imageQuery: "boundary fence garden respect space",
+  },
+  {
+    original: "知之者不如好之者，好之者不如樂之者。",
+    translation:
+      "知道它的人，不如喜愛它的人；喜愛它的人，不如以它為樂的人。",
+    interpretation:
+      "長期能走下去的事，多半靠內在動機。若只剩「應該」而沒有一點樂趣，遲早會枯竭。試著在義務裡找到一小塊你能享受的部分，或誠實換跑道。",
+    source: "《論語·雍也》",
+    category: "Confucianism",
+    imageQuery: "musician painter flow joy creative",
+  },
+  {
+    original: "發憤忘食，樂以忘憂，不知老之將至云爾。",
+    translation:
+      "用功起來會忘記吃飯，內心喜悅到忘記憂愁，連衰老將近都不覺得。",
+    interpretation:
+      "這種狀態接近心流：投入一件有意義的事時，時間感改變，焦慮暫退。人生不必永遠如此，但值得為自己保留一兩個能「忘我」的領域。",
+    source: "《論語·述而》",
+    category: "Confucianism",
+    imageQuery: "focused work flow state evening desk",
+  },
+  {
+    original: "德之不修，學之不講，聞義不能徙，不善不能改，是吾憂也。",
+    translation:
+      "品德不修養，學問不講究，聽見正當的道理却不能遷善，有過不能改，是我最擔心的事。",
+    interpretation:
+      "孔子憂的不是貧窮，而是停止成長。對照今日：若長期逃避自省、拒絕回饋、把錯都推給環境，心會僵化。願意修、講、徙、改，才是對自己溫柔的負責。",
+    source: "《論語·述而》",
+    category: "Confucianism",
+    imageQuery: "repair pottery kintsugi growth healing",
+  },
+  {
+    original: "後生可畏，焉知來者之不如今也？",
+    translation:
+      "年輕人值得敬畏，怎知他們將來不如我們這一代呢？",
+    interpretation:
+      "對年長者是謙卑：世界會被下一代重新定義。對年輕人是鼓勵：時間站在你們這邊，不必用眼前名次定終身。彼此少一點輕視，多一點好奇。",
+    source: "《論語·子罕》",
+    category: "Confucianism",
+    imageQuery: "young people city future sunrise",
+  },
+  {
+    original: "三軍可奪帥也，匹夫不可奪志也。",
+    translation:
+      "三軍可以奪去主帥，一個普通人卻不能被奪走志向。",
+    interpretation:
+      "外在可以剝奪你的地位、資源、自由，但「我仍選擇相信什麼、往哪裡走」若還在，尊嚴與內在自由就還在。這是心理韌性最深處的一盞燈。",
+    source: "《論語·子罕》",
+    category: "Confucianism",
+    imageQuery: "single candle dark room hope will",
+  },
+  {
+    original: "君子成人之美，不成人之惡。小人反是。",
+    translation:
+      "君子成全別人的好事，不助長別人的壞事；小人相反。",
+    interpretation:
+      "在關係裡問一句：我是在幫對方變好，還是在一起沉淪、一起抱怨、一起逃避？真正的善意有時是溫柔的拒絕，而不是無底線的附和。",
+    source: "《論語·顏淵》",
+    category: "Confucianism",
+    imageQuery: "hand up help someone climb step",
+  },
+  {
+    original: "克己復禮為仁。一日克己復禮，天下歸仁焉。",
+    translation:
+      "克制私欲、使言行回到禮的節度，就是仁。能如此，天下人都會認同你的仁德。",
+    interpretation:
+      "「克己」不是自我虐待，而是不被衝動與惰性牽著走；「復禮」可理解為尊重界線與承諾。每天一小步的自我管理，關係與內在秩序會跟著穩定下來。",
+    source: "《論語·顏淵》",
+    category: "Confucianism",
+    imageQuery: "discipline habit morning routine calm",
+  },
+  {
+    original: "過猶不及。",
+    translation:
+      "過了頭與做得不夠，都是偏失。",
+    interpretation:
+      "很多煩惱來自「太用力」或「太放任」兩端：太討好、太控制、太放縱、太逃避。中庸不是平庸，而是依情境微調到剛剛好的節奏，這需要覺察與練習。",
+    source: "《論語·先進》",
+    category: "Confucianism",
+    imageQuery: "balance scale goldilocks just right",
+  },
+  {
+    original: "益者三友，損者三友。友直，友諒，友多聞，益矣。",
+    translation:
+      "有益的朋友有三種，有害的朋友也有三種：與正直、誠信、見聞廣博的人交友，就有益。",
+    interpretation:
+      "你常相處的人會形塑你的神經系統與價值觀。若身邊只有附和與抱怨，視野會變窄；願意說真話、能談深度、見過世界的人，會溫柔地把你拉向更大格局。",
+    source: "《論語·季氏》",
+    category: "Confucianism",
+    imageQuery: "three friends walking talk honest",
+  },
+  {
+    original: "君子病無能焉，不病人之不己知也。",
+    translation:
+      "君子擔心自己沒有能力，不擔心別人不了解自己。",
+    interpretation:
+      "把「被看見」的焦慮轉成「可成長」的焦慮，能量會不同。名聲有時機，實力卻可以每天累積。先問今天我進步了什麼，比追蹤誰按讚更踏實。",
+    source: "《論語·衛靈公》",
+    category: "Confucianism",
+    imageQuery: "skill practice workshop growth focus",
+  },
+  {
+    original: "君子不重則不威，學則不固。",
+    translation:
+      "君子若不莊重，就難有威儀與可信；所學也容易不堅固。",
+    interpretation:
+      "「重」可以理解為穩重、認真、言行一致。輕浮的承諾、漂浮的學習，很難建立信任與深度。給自己一點莊重感，不是嚴肅，而是對人生負責的態度。",
+    source: "《論語·學而》",
+    category: "Confucianism",
+    imageQuery: "dignified person library still portrait",
+  },
+
+  {
+    original: "曲則全，枉則直，窪則盈，敝則新。",
+    translation:
+      "能曲才能保全，能屈才能再伸；低窪處才能盈滿，舊敝才能更新。",
+    interpretation:
+      "一味硬撐、硬要面子，常常反而碎裂。願意迂迴、認錯、留白、汰舊換新，長期看反而是完整。柔韌不是軟弱，是為了走更遠。",
+    source: "《道德經》第二十二章",
+    category: "Taoism",
+    imageQuery: "bamboo bend wind flexible strong",
+  },
+  {
+    original: "持而盈之，不如其已。",
+    translation:
+      "執持盈滿，不如適可而止。",
+    interpretation:
+      "收入、成就、關係的掌控欲，到了某個點再加碼，代價可能大過收益。學會在「夠好」處停一下，是對身心與關係的慈悲。",
+    source: "《道德經》第九章",
+    category: "Taoism",
+    imageQuery: "cup full tea stop pouring minimal",
+  },
+  {
+    original: "知足者富。",
+    translation:
+      "內心知足的人，才是富有的人。",
+    interpretation:
+      "財富數字與主觀富足常常脫鉤。知足不是不努力，而是能欣賞已有、減少無盡比較。當「夠」的感覺出現，焦慮會下降，感恩會上升。",
+    source: "《道德經》第三十三章",
+    category: "Taoism",
+    imageQuery: "simple wealth contentment home cozy",
+  },
+  {
+    original: "禍莫大於不知足；咎莫大於欲得。",
+    translation:
+      "災禍沒有比不知足更大的；過錯沒有比貪得無厭更大的。",
+    interpretation:
+      "很多困局不是沒有選擇，而是想要「全部、立刻、完美」。辨識欲望與需要，給欲望設天花板，是成年人保護自己的方式。",
+    source: "《道德經》第四十六章",
+    category: "Taoism",
+    imageQuery: "empty hands open palm letting go",
+  },
+  {
+    original: "我有三寶，持而保之：一曰慈，二曰儉，三曰不敢為天下先。",
+    translation:
+      "我有三樣寶貝，持守愛護它們：第一是慈愛，第二是儉約，第三是不與人爭先奪利。",
+    interpretation:
+      "慈讓關係有溫度，儉讓資源可續航，不爭先減少無謂衝突。用在個人生活，就是對自己與他人溫柔一點、欲望收斂一點、謙一點讓路給合作。",
+    source: "《道德經》第六十七章",
+    category: "Taoism",
+    imageQuery: "three stones stack zen balance",
+  },
+  {
+    original: "柔之勝剛，弱之勝強。",
+    translation:
+      "柔軟能勝過剛硬，弱小能勝過強橫。",
+    interpretation:
+      "與「柔弱勝剛強」同旨：舌頭比牙齒後掉，水能穿石。關係裡的堅持不必靠音量；長期的誠意與耐心，常勝過一時的強硬。",
+    source: "《道德經》第七十六章",
+    category: "Taoism",
+    imageQuery: "water stone drip persistence soft",
+  },
+  {
+    original: "天下萬物生於有，有生於無。",
+    translation:
+      "天下萬物從「有」中生出，而「有」又從「無」中生出。",
+    interpretation:
+      "留白、休息、沉默，看似「無」，卻常常是創意與修復發生之處。把行程塞滿到沒有空隙，反而扼殺了生長需要的空間。",
+    source: "《道德經》第四十章",
+    category: "Taoism",
+    imageQuery: "empty page canvas possibility white space",
+  },
+  {
+    original: "民之從事，常於幾成而敗之。慎終如始，則無敗事。",
+    translation:
+      "人做事常常在快成功時失敗。慎重的結尾要像開始一樣，就不容易敗事。",
+    interpretation:
+      "收尾比開頭更考驗耐心：專案最後百分之十、關係最後一句道歉、健康最後一週的堅持。鬆懈往往在最接近終點處，提醒自己慎終如始。",
+    source: "《道德經》第六十四章",
+    category: "Taoism",
+    imageQuery: "finish line marathon last mile focus",
+  },
+  {
+    original: "含德之厚，比於赤子。",
+    translation:
+      "涵養厚德深厚的人，可比於初生的嬰兒。",
+    interpretation:
+      "赤子不是幼稚，而是生命力純粹、少算計、對世界仍開放。成年人若能在複雜中仍保留一點真誠與好奇，人際會輕鬆很多。",
+    source: "《道德經》第五十五章",
+    category: "Taoism",
+    imageQuery: "newborn baby soft light innocent",
+  },
+  {
+    original: "反者道之動，弱者道之用。",
+    translation:
+      "循環往復是道的運行方式，柔弱是道的作用特徵。",
+    interpretation:
+      "低潮之後可能回升，強勢之後須防轉折。身處逆境時，這句話給希望；身處順境時，給警醒。柔軟的應對，常比硬扛更符合長期生存。",
+    source: "《道德經》第四十章",
+    category: "Taoism",
+    imageQuery: "tide wave cycle moon phases calm",
+  },
+  {
+    original: "大音希聲，大象無形。",
+    translation:
+      "最大的聲音聽起來反而稀疏，最大的形象反而看不見具體形狀。",
+    interpretation:
+      "真正深刻的影響往往安靜：長期的身教、穩定的在場、無聲的支持。若你總在追求戲劇化的證明，可能錯過了那些沈默卻真實的連結。",
+    source: "《道德經》第四十一章",
+    category: "Taoism",
+    imageQuery: "silence vast sky invisible presence",
+  },
+  {
+    original: "天道無親，常與善人。",
+    translation:
+      "天道沒有偏私，卻常常幫助行善的人。",
+    interpretation:
+      "「善人」可理解為順應誠實、節制、慈愛的人。長期下來，善意與可靠會累積信任與機會，未必是迷信報應，而是系統的自然回饋。",
+    source: "《道德經》第七十九章",
+    category: "Taoism",
+    imageQuery: "kindness ripple water circles gentle",
+  },
+
+  {
+    original: "臣之所好者道也，進乎技矣。",
+    translation:
+      "我所追求的是道，已經超越單純的技巧了。",
+    interpretation:
+      "庖丁解牛的精神：當你把一件事做到通透，技術會內化成直覺與節奏，不再只是機械重複。工作與技藝上，值得問：我是在堆技巧，還是在接近自己的「道」？",
+    source: "《莊子·養生主》",
+    category: "Taoism",
+    imageQuery: "chef knife flow kitchen mastery calm",
+  },
+  {
+    original: "昔者莊周夢為胡蝶，栩栩然胡蝶也，自喻適志與！不知周之夢為胡蝶與，胡蝶之夢為周與？",
+    translation:
+      "從前莊周夢見自己變成蝴蝶，翩翩飛舞，十分快意，不知道是人夢見蝴蝶，還是蝴蝶夢見人。",
+    interpretation:
+      "這則寓言鬆動「我與現實」的絕對感：有些執著在醒來後會顯得可笑。不是否定認真生活，而是多一點幽默與彈性，痛苦就不那麼鐵板一塊。",
+    source: "《莊子·齊物論》",
+    category: "Taoism",
+    imageQuery: "butterfly dream surreal soft focus nature",
+  },
+  {
+    original: "魚相忘於江湖，人相忘於道術。",
+    translation:
+      "魚在江湖里彼此忘記，人在大道中也能超越執著而相忘。",
+    interpretation:
+      "與「相忘於江湖」呼應：關係的最高境界不一定是黏膩，而是在更大的自由與成長裡各自安好。執著於被記得、被虧欠，心會很累。",
+    source: "《莊子·大宗師》",
+    category: "Taoism",
+    imageQuery: "fish ocean wide blue freedom depth",
+  },
+  {
+    original: "至人之用心若鏡，不將不迎，應而不藏。",
+    translation:
+      "境界高的人的用心像鏡子：不強行追隨已去的，不預先迎合未來的，如實反映當下而不把情緒囤積在心裡。",
+    interpretation:
+      "心理學上接近「觀察而不認同」：事情發生，你感受它、命名它，但不把每一筆都變成自我攻擊或劇本。鏡子照完就空，心也比較不累。",
+    source: "《莊子·應帝王》",
+    category: "Taoism",
+    imageQuery: "mirror lake reflection clear mountain",
+  },
+  {
+    original: "哀莫大於心死，而人死亦次之。",
+    translation:
+      "最大的悲哀莫過於心死，身體的死亡還在其次。",
+    interpretation:
+      "當一個人對美、對愛、對好奇不再有感覺，活著也像缺席。若你覺得心麻木了，值得當成警訊：尋求連結、專業協助或小步重啟興趣，都是在救「心」。",
+    source: "《莊子·田子方》",
+    category: "Taoism",
+    imageQuery: "wilted flower revive water drop hope",
+  },
+  {
+    original: "真者，精誠之至也。不精不誠，不能動人。",
+    translation:
+      "真，是精誠到極點；不精不誠，就無法打動人。",
+    interpretation:
+      "套路與話術短期有效，長期還是靠真誠。人對「是否真心」很敏感。願意脆弱一點、誠實一點，關係反而有穿透力。",
+    source: "《莊子·漁父》",
+    category: "Taoism",
+    imageQuery: "sincere eyes conversation candle warm",
+  },
+
+  {
+    original: "惻隱之心，仁之端也；羞惡之心，義之端也。",
+    translation:
+      "同情心是仁的開端，羞恥與厭惡不義是義的開端。",
+    interpretation:
+      "孟子相信道德情感有根：你不是靠硬背規則才善良，而是本就能被別人的苦所觸動。照顧好這份惻隱，不被冷漠與嘲諷磨光，是人性裡很珍貴的部分。",
+    source: "《孟子·公孫丑上》",
+    category: "Confucianism",
+    imageQuery: "hand on heart compassion empathy soft",
+  },
+  {
+    original: "學問之道無他，求其放心而已矣。",
+    translation:
+      "做學問沒有別的，就是把放失的心找回來而已。",
+    interpretation:
+      "心常被手機、焦慮、比較帶走。所謂修養，很大一部分是覺察走神、溫柔地把注意力帶回當下。每天幾分鐘的專注，就是在「求放心」。",
+    source: "《孟子·告子上》",
+    category: "Confucianism",
+    imageQuery: "breath meditation return present moment",
+  },
+  {
+    original: "盡其心者，知其性也。知其性，則知天矣。",
+    translation:
+      "能窮盡自己的本心，就了解自己的本性；了解本性，就通於天。",
+    interpretation:
+      "現代可讀成：深度自我覸察會帶來價值觀的清晰，而不再隨波逐流。你愈誠實面對自己想要什麼、怕什麼，愈能做出不後悔的選擇。",
+    source: "《孟子·盡心上》",
+    category: "Confucianism",
+    imageQuery: "inner light self knowledge quiet room",
+  },
+  {
+    original: "天將降大任於是人也，必先苦其心志，勞其筋骨，餓其體膚，空乏其身，行拂亂其所為。",
+    translation:
+      "上天要交付重大責任給某人，一定先讓他內心受苦、筋骨勞累、身體飢餓、資源匱乏，所行不如意，以此鍛鍊他。",
+    interpretation:
+      "這不是美化苦難，而是描述一種常見的成長路徑：韌性與格局常在壓力中長出。若你正在艱難裡，可以問：這段經歷在要求我長出什麼能力？而不是「為什麼偏偏是我」單迴圈。",
+    source: "《孟子·告子下》",
+    category: "Confucianism",
+    imageQuery: "mountain climb storm resilience path",
+  },
+
+  {
+    original: "苟日新，日日新，又日新。",
+    translation:
+      "若能一天新，就應天天新，再進一步，一直新下去。",
+    interpretation:
+      "與其追求一次巨變，不如容許自己每天微小更新：一個習慣、一句道歉、一個新嘗試。累積的「新」會帶來活著的感覺，而不是停滯感。",
+    source: "《大學》",
+    category: "Confucianism",
+    imageQuery: "sunrise new day journal fresh start",
+  },
+  {
+    original: "自天子以至於庶人，壹是皆以修身為本。",
+    translation:
+      "從天子到百姓，一律都以修養自身為根本。",
+    interpretation:
+      "外在角色不論高低，內在功課類似：情緒、誠實、界線、責任。把「修身」當成本業，其他成就比較不會變成空心。",
+    source: "《大學》",
+    category: "Confucianism",
+    imageQuery: "foundation stone building person growth",
+  },
+
+  {
+    original: "應無所住，而生其心。",
+    translation:
+      "心不黏著於任何固定對象，而生起清明、慈悲與智慧。",
+    interpretation:
+      "執著於標籤、成敗、過去與未來，心就被「住」滿了。練習覺察念頭來去而不跟著跑，會出現較大的內在空間，應對變化也比較不狼狽。",
+    source: "《金剛經》",
+    category: "Buddhism",
+    imageQuery: "lotus water ripple open heart light",
+  },
+
   // —— 《孫子兵法》 Art of War —— //
   {
     original: "知彼知己，百戰不殆。",
@@ -690,10 +1623,30 @@ const entries = [
     category: "Art of War",
     imageQuery: "calm water after storm evening peace",
   },
+  {
+    original: "凡戰者，以正合，以奇勝。",
+    translation:
+      "用兵作戰，以正兵交鋒，以奇兵取勝。",
+    interpretation:
+      "生活裡「正」是原則與基本功，「奇」是創意與時機。只靠小聰明走捷徑，底子會空；只會硬拼不懂變通，會耗竭。兩者交替，才較可持續。",
+    source: "《孫子兵法·勢篇》",
+    category: "Art of War",
+    imageQuery: "chess knight surprise strategy board",
+  },
+  {
+    original: "兵者，國之大事，死生之地，存亡之道，不可不察也。",
+    translation:
+      "戰爭是國家大事，是生死存亡之所繫，不可以不慎重省察。",
+    interpretation:
+      "對個人而言，重大決定（轉職、結婚、遷移、決裂）也值得同樣的慎重：情報是否足夠？情緒是否已降溫？後果能否承擔？「察」不是膽小，是對自己負責。",
+    source: "《孫子兵法·始計篇》",
+    category: "Art of War",
+    imageQuery: "crossroads night thoughtful person city",
+  },
 ];
 
-// 最近已展示過的經文索引，用來避免短期內重複
-const RECENT_ENTRY_LIMIT = 5;
+// 最近已展示過的經文索引，用來避免短期內重複（條目變多後略為提高緩衝）
+const RECENT_ENTRY_LIMIT = 18;
 const recentEntryIndices = [];
 
 function pickRandomEntry(list) {
