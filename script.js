@@ -1643,6 +1643,16 @@ const entries = [
     category: "Art of War",
     imageQuery: "crossroads night thoughtful person city",
   },
+  {
+    original: "致人而不致於人。",
+    translation:
+      "善於作戰的人，能調動對方、掌握主動，而不被對方牽著鼻子走。",
+    interpretation:
+      "用在生活與工作上，就是盡量讓自己選戰場與節奏：先想清楚目標與底線，再決定是否接招，而不是被別人的情緒、期限或話題帶著跑。主動不是強勢，而是對自己時間與注意力有主權。",
+    source: "《孫子兵法·虛實篇》",
+    category: "Art of War",
+    imageQuery: "chess board initiative move first calm strategy",
+  },
 ];
 
 // 最近已展示過的經文索引，用來避免短期內重複（條目變多後略為提高緩衝）

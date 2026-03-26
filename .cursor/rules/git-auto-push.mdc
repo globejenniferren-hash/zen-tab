@@ -1,0 +1,17 @@
+---
+description: After code changes, commit and push to GitHub (zen-tab)
+alwaysApply: true
+---
+
+# Git：改動後同步到 GitHub
+
+本專案為靜態頁與單一倉庫。**每次對本倉庫檔案完成修改並結束該項任務時**，請自動執行（無須再問使用者是否要 push，除非對方曾明確說過不要提交）：
+
+1. `git status` 確認變更檔案  
+2. `git add` 相關檔案（勿加入不該提交的私密檔）  
+3. `git commit -m "…"` 使用簡短、說明「改了什麼、為什麼」的英文或中文訊息  
+4. `git push origin main`  
+
+**例外**：使用者明確說不要提交、不要 push、或僅在問答／未改檔案時，則不必執行。
+
+若 push 失敗（憑證、網路等），請自行重試或說明錯誤，不要假裝已成功。
